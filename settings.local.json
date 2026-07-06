@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\All c++\\\\DEVAI\\\\bizflow\\\\bizflow\\\\assets\")"
+    ]
+  }
+}
