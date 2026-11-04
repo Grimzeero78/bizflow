@@ -22,10 +22,18 @@ dependencies:
   google_fonts: ^8.0.2
   flutter_animate: ^4.5.0
   camera: ^0.11.0
+  confetti: ^0.7.0
+  flutter_native_splash: ^2.4.7
+  flutter_tts: ^4.2.5
+  image: ^4.8.0
   image_picker: 1.1.2
   google_mlkit_text_recognition: ^0.15.1
   path_provider: ^2.1.4
+  path: ^1.9.1
   hive: ^2.2.3
+  tflite_flutter: ^0.12.1
+  sqflite: ^2.4.4+2
+  fl_chart: ^1.2.0
 
 dev_dependencies:
   flutter_test:
@@ -39,10 +47,10 @@ flutter_launcher_icons:
   ios: true
   remove_alpha_ios: true
   image_path: "assets/icon.png"
-  # For better Android 13+ support, use Adaptive Icons:
-  adaptive_icon_background: "#EFF6FF" # Matches your app's theme
+  min_sdk_android: 21
+  adaptive_icon_background: "#EFF6FF"
   adaptive_icon_foreground: "assets/icon.png"
-  # Flattened monochrome icon key for better compatibility
+  adaptive_icon_monochrome: "assets/monochrome.png"
   monochrome_icon: "assets/monochrome.png"
 flutter:
   uses-material-design: true
